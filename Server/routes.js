@@ -11,7 +11,7 @@
 */
 const express = require('express');
 const { connectDB } = require('./database');
-const DBuri = 'mongodb://0.0.0.0:27017/Plant-Project'
+const DBuri = 'mongodb://0.0.0.0:27017/plantProject'
 const app = express();
 const port = 3000;
 const Plant = require('./models');
