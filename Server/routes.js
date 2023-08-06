@@ -100,7 +100,7 @@ app.put('/plants/:id', (req, res) => {
   const plantId = req.params.id;
   const updateData = req.body;
 
-  Plant.findByIdAndUpdate({plantID: plantId}, updateData)
+  Plant.findOneAndUpdate({plantID: plantId}, updateData)
     .then((updatedPlant) => {
       if (!updatedPlant) {
         return res.status(404).json({ error: 'Plant not found' });
