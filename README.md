@@ -2,8 +2,9 @@
 
 ## Basic application that allows the students to enter and alter information about their plants. <br>
 
-This helps the student monitor their plants and keep track of it's growth and requirements.<br>
-Attributes:<br>
+This helps the student monitor their plants and keep track of it's growth and requirements. <br>
+
+Attributes:
 - Plant ID 
 - Volunteer Name
 - Student ID
